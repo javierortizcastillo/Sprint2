@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"
+    defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"
+    defer></script>
+  <title>Nivel 3 bootstrap 5</title>
+  <script src="https://kit.fontawesome.com/97b4867dfd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="general  d-flex flex-column ">
+
+    <!--Apartado Cabecera -->
+
+    <section class="cabecera">
+      <div class="container1 container-lg bg-transparent">
+        <div class="img"  >
+          <img src="images/image1.jpg " class="image1 img-fluid " alt="image1"  />
+        </div>
+        <nav class="navbar ">
+          <div class="container-fluid">
+            <img src="images/Netflix_Logo_PMS.png " class="logo img-fluid bg-transparent" alt="logo" width="250px">
+            <form class="d-flex">
+              <div class="dropdown ">
+                <button class="btn bg-color2 text-white dropdown-toggle " type="button" id="dropdownMenu2"
+                  data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe"></i>
+                  Español
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item" type="button">Inglés</button></li>
+                  <li><button class="dropdown-item" type="button">Francés</button></li>
+                  <li><button class="dropdown-item" type="button">Italiano</button></li>
+                  <li><button class="dropdown-item" type="button">Alemán</button></li>
+                  <li><button class="dropdown-item" type="button">Catalán</button></li>
+                </ul>
+              </div>
+              <form class="d-flex bg-transparent ">
+                <a href="#" class="btn btn-danger ms-5">Iniciar sesión</a>
+              </form>
+            </form>
+          </div>
+        </nav>
+
+        <div class="texto1 mb-4">
+          <h1 class="text-center fs-1 text-white">Todas las películas y series que desees, y mucho más.</h1>
+          <h4 class="text-center fs-3 text-white">Disfruta donde quieras. Cancela cuando quieras.</h4>
+          <p class="text-center text-white">¿Quieres ver algo ya? Escribe tu correo para crear una suscripción a Netflix
+            o reactivarla.</p>
+        </div>
+        <form class="form-signin d-lg-flex justify-content-center order-lg-3">
+          <div class="form-label-group">
+            <input type="email" id="email" class="form-control" placeholder="Correo electrónico" required autofocus>
+
+          </div>
+          <div class="text-center">
+            <button class="btn btn-empezar btn-danger" type="submit">EMPEZAR &gt;</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Apartado televisor -->
+
+    <section class="televisor">
+      <div class="containerTelevisor container-lg">
+        <div class="row">
+          <div class="col-md-6 align-self-center order-lg-1">
+            <p class="text-white h3 font-weight-bold text-center text-lg-left fs-1">Disfruta de Netflix en tu TV.</p>
+            <p class="text-white h5 text-center text-lg-left ">Smart TV, Playstation, Xbox, Chromecast, Apple TV,
+              reproductures Blu-ray y muchos más
+            </p>
+          </div>
+          <div class="col-md-6 order-lg-2 ">
+            <video class="videoTelevisor modal-dialog modal-lg  position-absolute " src="images/video-tv-0819.m4v"
+              width="auto"></video>
+            <img src="images/tv.png" class="img-fluid position-relative mb-lg-5 me-md-5" width="auto" height="100"
+              alt="televisor"> </img>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Apartado Movil -->
+
+    <section class="movil">
+      <div class="containerMovil container-lg">
+        <div class="row">
+          <div class="col-md-6 align-self-center order-lg-1">
+            <img src="images/mobile-0819.jpg" class="img-fluid position-relative " width="auto" height="100" alt="..."> </img>
+
+            <div class="d-flex ms-lg-5 align-items-center mb-lg-5 bg-transparent position-relative ">  
+              <img class="stranger" src="images/boxshot.png" width="50px" height="70px">
+              <h4 class="stranger text-white p-3 sf-4">Stranger Things<br></h4>
+              <p class="descargando ms-xxl-5 text-primary">...Descargándose</p>
+              <div class="spinner-border me-xl-5 ms-auto text-primary" role="status" aria-hidden="true"></div>
+            </div>
+
+          </div>
+          <div class="col-md-6 order-lg-2 align-self-center">
+            <p class="titulo text-white h3 font-weight-bold text-center fs-1">Descárgate tus series favoritas para
+              verlas sin conexión.</p>
+            <p class="text-white h5 text-center ">Guarda tus títulos favoritos fácilmente para que siempre tengas algo
+              que ver.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Apartado Portatil -->
+
+    <section class="pc">
+      <div class="containerOrdenador container-lg">
+        <div class="row">
+          <div class="col-md-6 align-self-center order-lg-1">
+            <p class="text-white h3 font-weight-bold text-center text-lg-left fs-1">Disfruta en todas partes.</p>
+            <p class="text-white h5 text-center text-lg-left ">Reproduce en streaming todas las peliculas y series en tu
+              móvil, tableta, ordenador y TV sin pagar más.
+            </p>
+          </div>
+          <div class="col-md-6 align-self-center order-lg-2">
+            <video class="devices mt-md-5  position-absolute" src="images/video-devices.m4v" width="350px"></video>
+            <img src="images/device-pile.png" class="img-fluid position-relative me-xl-5" width="auto" height="100"
+              alt="..."> </img>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Apartado Infantil -->
+
+    <section class="infantil">
+      <div class="containerInfantil container-lg">
+        <div class="row">
+          <div class="col-md-6 order-lg-1 ">
+            <img
+              src="images/AAAABYQim29IclEmfJ2BAQN0kBiMqb2WES_HzcYk8Xm6q20pg-O5B13PYEFUEXHCgw_Tx50Z3S0oAebD6o16jpExXe57dpeP.png"
+              class="img-fluid" width="auto" height="100" alt="..."> </img>
+          </div>
+          <div class="col-md-6 order-lg-2 align-self-center">
+            <p class="titulo text-white h3 font-weight-bold text-center fs-1">Crea perfiles infantiles.</p>
+            <p class="text-white h5 text-center ">Deja que los niños vivan aventuras con sus personajes
+              favoritos en un espacio diseñado exclusivamente para ellos, gratis con tu suscripción.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Apartado Tarjetas -->
+
+    <div class="containerPreguntas container-lg">
+
+      <p class="h3 font-weight-bold text-white text-center p-3 fs-1">Preguntas frecuentes</p>
+      <div class="accordion container " id="preguntas-frecuentes">
+
+        <div class="card ">
+          <div class="card-header bg-dark " id="pregunta-uno">
+            <p class="mb-0 d-flex">
+              <button class="btn btn-block bg-dark text-white text-left fs-5" type="button" data-toggle="collapse"
+                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                ¿Qué es Netflix?
+              </button>
+              <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-plus text-white " fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z" />
+                <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z" />
+              </svg>
+            </p>
+          </div>
+          <div id="collapseOne" class="collapse" aria-labelledby="pregunta-uno" data-parent="#preguntas-frecuentes">
+            <div class="card-body">
+              <p>Netflix es un servicio de streaming que ofrece una amplia variedad de series, películas, títulos de
+                anime, documentales y otros contenidos premiados en miles de dispositivos conectados a internet.</p>
+              <p>Puedes ver todo el contenido que quieras, cuando quieras y sin un solo anuncio por una tarifa mensual
+                reducida. ¡Siempre hay algo nuevo que descubrir, y cada semana se añaden nuevas series y películas!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-2">
+          <div class="card-header bg-dark" id="pregunta-dos">
+            <p class="mb-0 d-flex">
+              <button class="btn btn-block bg-dark text-white text-left collapsed fs-5" type="button" data-toggle="collapse"
+                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Cuánto cuesta Netflix?
+              </button>
+              <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-plus text-white" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z" />
+                <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z" />
+              </svg>
+            </p>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="pregunta-dos" data-parent="#preguntas-frecuentes">
+            <div class="card-body">
+              Disfruta de Netflix en tu smartphone, tableta, Smart TV, ordenador o dispositivo de streaming, todo por
+              una tarifa mensual fija. Planes desde 7,99 € a 15,99 € al mes. Sin cargos adicionales ni contratos.
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-2">
+          <div class="card-header bg-dark" id="pregunta-tres">
+            <p class="mb-0 d-flex">
+              <button class="btn btn-block bg-dark text-white text-left collapsed fs-5" type="button" data-toggle="collapse"
+                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ¿Dónde puedo ver Netflix?
+              </button>
+              <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-plus text-white" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z" />
+                <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z" />
+              </svg>
+            </p>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="pregunta-tres" data-parent="#preguntas-frecuentes">
+            <div class="card-body">
+              <p>Disfruta donde quieras y cuando quieras en un número ilimitado de dispositivos. Inicia sesión con tu
+                cuenta de Netflix para disfrutar al instante de todo el contenido de netflix.com desde tu ordenador
+                personal o en cualquier dispositivo conectado a internet que ofrezca la aplicación de Netflix, entre
+                ellos, smart TV, smartphones, tabletas, reproductores multimedia de streaming y consolas de juegos.</p>
+              <p>También puedes descargar tus series favoritas con la aplicación de iOS, Android o Windows 10. Utiliza
+                las descargas para ver títulos dondequiera que vayas y cuando no dispongas de conexión a internet.
+                Netflix siempre te acompaña.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-2">
+          <div class="card-header bg-dark" id="pregunta-cuatro">
+            <p class="mb-0 d-flex">
+              <button class="btn btn-block bg-dark text-white text-left collapsed fs-5" type="button" data-toggle="collapse"
+                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                ¿Cómo cancelo?
+              </button>
+              <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-plus text-white" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z" />
+                <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z" />
+              </svg>
+            </p>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="pregunta-cuatro" data-parent="#preguntas-frecuentes">
+            <div class="card-body">
+              Netflix es flexible. Sin contratos liosos ni compromisos. Puedes cancelar fácilmente tu cuenta en línea
+              con tan solo dos clics. Sin cargos por cancelación: activa o cancela tu cuenta en cualquier momento.
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-2">
+          <div class="card-header bg-dark" id="pregunta-cinco">
+            <p class="mb-0 d-flex">
+              <button class="btn btn-block bg-dark text-white text-left collapsed fs-5" type="button" data-toggle="collapse"
+                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                ¿Qué puedo ver en Netflix?
+              </button>
+              <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-plus text-white" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z" />
+                <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z" />
+              </svg>
+            </p>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="pregunta-cinco" data-parent="#preguntas-frecuentes">
+            <div class="card-body">
+              Netflix dispone de una amplia biblioteca de originales de Netflix galardonados, títulos de anime, series
+              de TV, documentales, largometrajes y otros contenidos. Ve todo el contenido que quieras, cuando quieras.
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-2">
+          <div class="card-header bg-dark" id="pregunta-seis">
+            <p class="mb-0 d-flex">
+              <button class="btn btn-block bg-dark text-white text-left collapsed fs-5" type="button" data-toggle="collapse"
+                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                ¿Es bueno para los niños?
+              </button>
+              <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-plus text-white " fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z" />
+                <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z" />
+              </svg>
+            </p>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="pregunta-cinco" data-parent="#preguntas-frecuentes">
+            <div class="card-body">
+              Netflix dispone de una amplia biblioteca de originales de Netflix galardonados, títulos de anime, series
+              de TV, documentales, largometrajes y otros contenidos. Ve todo el contenido que quieras, cuando quieras.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-inicio container-lg">
+        <div class="row d-block">
+          <p class="subtitulo-2 mx-auto text-center text-white mt-4 fs-4 order-lg-4">¿Quieres ver algo ya? Escribe tu correo para
+            crear una
+            suscripción a Netflix o reactivarla.</p>
+          <form class="form-signin d-lg-flex justify-content-center order-lg-3">
+            <div class="form-label-group">
+              <input type="email" id="correo" class="form-control" placeholder="Correo electrónico" required>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-empezar btn-danger" type="submit">EMPEZAR &gt;</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--Apartado Footer -->
+      <footer class="mx-auto">
+        <div class="container-lg mt-3">
+          <p class="llama ">¿Preguntas? Llama al 900 943 249</p>
+          <ul class="row">
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Preguntas frecuentes</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Centro de ayuda</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Cuenta</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Zona de prensa</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Inversores</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Empleo</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Canjear tarjetas regalo</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Comprar tarjetas regalo</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Formas de ver</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Términos de uso</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Privacidad</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Preferencias de <span lang="en">cookies</span></a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Información corporativa</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Contáctanos</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Prueba de velocidad</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Avisos legales</a></li>
+            <li class="col-lg-3 col-md-4 col-6"><a href="#">Originales de Netflix</a></li>
+          </ul>
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle bg-transparent" type="button" id="dropdownMenu2"
+              data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe"></i>
+              Español
+            </button>
+            <ul class="dropdown-menu " aria-labelledby="dropdownMenu2">
+              <li><button class="dropdown-item " type="button">Inglés</button></li>
+              <li><button class="dropdown-item " type="button">Francés</button></li>
+              <li><button class="dropdown-item " type="button">Italiano</button></li>
+              <li><button class="dropdown-item " type="button">Alemán</button></li>
+              <li><button class="dropdown-item " type="button">Catalán</button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="final fs3 p-3">
+          <p class="pie ">Netflix España</p>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+</body>
+
+</html>

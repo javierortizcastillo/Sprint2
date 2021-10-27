@@ -1,0 +1,78 @@
+@import "variables";
+
+body {
+  background-color: $color1 !important;
+
+  .container1 {
+    position: relative;
+
+    .img {
+      opacity: 0.5;
+      position: absolute;
+    }
+    .nav {
+      position: absolute;
+    }
+    .texto1 {
+      position: relative;
+      margin-top: $spacer;
+    }
+    .form-signin {
+      position: relative;
+    }
+    .text-center {
+      position: relative;
+    }
+  }
+
+  .containerTelevisor {
+    background: $color2;
+    margin-top: $margin1;
+    position: relative;
+
+    .img-fluid {
+      position: absolute;
+    }
+  }
+  .containerMovil {
+    background: $color2;
+    margin-top: $margin2;
+  }
+  .containerOrdenador {
+    background: $color2;
+    margin-top: $margin2;
+    .devices {
+      margin-left: $margin3;
+    }
+  }
+  .containerInfantil {
+    background: $color2;
+    margin-top: $margin2;
+  }
+  .containerPreguntas {
+    background: $color2;
+    margin-top: $margin2;
+    .card {
+      border-style: none !important;
+    }
+  }
+
+  .llama {
+    color: $color3;
+  }
+  ul li {
+    list-style: none;
+    a {
+      color: $color3;
+    }
+    a:hover {
+      color: $color4;
+      transition: all 300ms;
+    }
+  }
+
+  .pie {
+    color: $color3;
+  }
+}
+

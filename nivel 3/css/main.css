@@ -1,0 +1,72 @@
+body {
+  background-color: #232323 !important;
+}
+body .container1 {
+  position: relative;
+}
+body .container1 .img {
+  opacity: 0.5;
+  position: absolute;
+}
+body .container1 .nav {
+  position: absolute;
+}
+body .container1 .texto1 {
+  position: relative;
+  margin-top: 11rem;
+}
+body .container1 .form-signin {
+  position: relative;
+}
+body .container1 .text-center {
+  position: relative;
+}
+body .containerTelevisor {
+  background: black;
+  margin-top: 10.2rem;
+  position: relative;
+}
+body .containerTelevisor .img-fluid {
+  position: absolute;
+}
+body .containerMovil {
+  background: black;
+  margin-top: 0.5rem;
+}
+body .containerOrdenador {
+  background: black;
+  margin-top: 0.5rem;
+}
+body .containerOrdenador .devices {
+  margin-left: 100px;
+}
+body .containerInfantil {
+  background: black;
+  margin-top: 0.5rem;
+}
+body .containerPreguntas {
+  background: black;
+  margin-top: 0.5rem;
+}
+body .containerPreguntas .card {
+  border-style: none !important;
+}
+body .llama {
+  color: #6f6f6f;
+}
+body ul li {
+  list-style: none;
+}
+body ul li a {
+  color: #6f6f6f;
+}
+body ul li a:hover {
+  color: white;
+  transition: all 300ms;
+}
+body .pie {
+  color: #6f6f6f;
+}
+
+
+/*# sourceMappingURL=main.css.map */
